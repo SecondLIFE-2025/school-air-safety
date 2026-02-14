@@ -86,7 +86,6 @@ th {
     transition: transform 0.3s ease, background 0.3s ease;
 }
 
-/* 🔥 HOVER EFFECT */
 .btn:hover {
     transform: scale(1.15);
     background: #092c66;
