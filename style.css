@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f7fb;
+    color: #222;
+}
+
+header {
+    background: #0b3c8c;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 30px auto;
+    width: 85%;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.status {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.status.high {
+    background: #d62828;
+}
+
+.big {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #eaeaea;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.buttons {
+    text-align: center;
+    margin: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #0b3c8c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 10px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* 🔥 HOVER EFFECT */
+.btn:hover {
+    transform: scale(1.15);
+    background: #092c66;
+}
+
+footer {
+    background: #eaeaea;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
